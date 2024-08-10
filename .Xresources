@@ -1,0 +1,6 @@
+! ~/.Xresources
+XTerm*disallowedWindowOps:20,21,SetXprop
+XTerm*background:#000000
+XTerm*foreground:#C0C0C0
+XTerm*faceName:Iosevka Slab
+XTerm*faceSize:12

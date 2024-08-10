@@ -1,0 +1,19 @@
+# ~/.config/i3status/config
+
+general {
+  colors = true
+  interval = 5
+  separator = "  "
+}
+
+order += "wireless wlan0"
+order += "tztime local"
+
+wireless wlan0 {
+  format_up = "%ip %essid %quality"
+  format_down = ""
+}
+
+tztime local {
+  format = "%Y/%m/%d %H:%M"
+}
